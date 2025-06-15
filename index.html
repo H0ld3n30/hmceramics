@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title></title>
+
+	<style type="text/css">
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#cover{
+  background-image: url(cover.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+  position: relative;
+  /*display: flex;*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+#menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;        
+  padding: 0 30px;    
+  width: 100%;
+  top: 0;
+ 
+  left: 0;
+  z-index: 1000;
+  /*background-color: white;  
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+
+}
+
+.left{
+	flex: 0;
+}
+.right{
+	display: flex;
+	gap: 20px;
+}
+.logo, .item{
+ 
+ 	justify-content: center;                      
+    box-sizing: border-box;
+    border-radius: 4px;    
+    display: grid;
+    text-decoration: none;          
+    color: black;
+    display: flex;
+    padding: 15px 0;
+    cursor: pointer;
+
+}
+
+.logo{
+  font-family: 'Times New Roman', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  white-space: nowrap;
+  /*position: fixed;
+  top: 15px;
+  left: 20px;
+  z-index: 1000;*/
+}
+.item {                                     
+
+  transition: color 0.5s ease, color 0.5s ease;
+  font-size: 20px;
+  font-family: 'Times', cursive, serif;
+         
+}
+
+.item:hover {
+  color: white;
+}
+
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+.window{
+  background-image: url(window.jpg);
+
+  background-size: cover;
+  background-position: center;
+  height: 180vh;
+  position: relative;
+  /*display: flex;*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+
+}
+
+.about{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  padding-top: 20px;
+  background-color: white;
+
+}
+
+#title{
+  font-size: 30px;
+  font-family: 'Times New Roman',cursive, serif;
+
+}
+
+#bio{
+  padding: 20px;
+  font-size: 25px;
+  display: flex;
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #555;
+  font-size: 14px;
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+}
+
+	</style>
+</head>
+<body>
+<div id="cover">
+	<div id="menu">
+		<div class="left">
+			<a> <div class = "logo">HOLDEN MACDOUGALL</div> </a>
+		</div>
+		<div class="right">
+			<a href="portfolio.html"><div class="item">PORTFOLIO</div></a>
+			<a href="shop.html"><div class="item">SHOP</div></a>
+			<a href="contact.html"><div class="item">CONTACT</div></a>
+		</div>
+	</div> 
+</div>
+<div class="window">
+<div class="about">
+<center><p id="title">ABOUT ME</p></center>
+<p id="bio"> FILLER BIO: I'm a multidisciplinary artist and designer based in New York City, working at the intersection of form, function, and emotion. With a background in ceramics and a passion for storytelling through material, I create pieces that blend utility with beauty. Whether shaping clay or coding websites, I strive to craft experiences that are both thoughtful and tactile. When I’m not in the studio, you’ll find me exploring galleries, sketching in cafés, or experimenting with new mediums.
+  </p>
+</div>
+</div>
+<!-- IMAGES 
+
+<div id="art-container">
+  <div id="art1" class="art"></div>
+  <div id="art2" class="art"></div>
+  <div id="art3" class="art"></div>
+</div> 
+
+-->
+
+</body>
+</html>
